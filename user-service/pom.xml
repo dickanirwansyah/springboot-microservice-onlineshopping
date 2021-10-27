@@ -12,9 +12,8 @@
     <artifactId>user-service</artifactId>
     <dependencies>
         <dependency>
-            <groupId>id.dicka.app</groupId>
-            <artifactId>configuration-service</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-core</artifactId>
         </dependency>
         <dependency>
             <groupId>id.dicka.app</groupId>

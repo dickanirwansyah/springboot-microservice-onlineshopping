@@ -7,7 +7,7 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
 server:
   port: 8881
 #paging
@@ -17,3 +17,9 @@ pageable:
     number: 1
     sortBy: name
     sortType: desc
+#configu redis
+redis:
+  hosts: 127.0.0.1
+  port: 6379
+  password: ""
+  dbIndex: 0
